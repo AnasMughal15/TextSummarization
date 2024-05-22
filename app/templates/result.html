@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summary</title>
+</head>
+<body>
+    <h1>Keywords:</h1>
+    <ul>
+        {% for keyword in keywords %}
+            <li>{{ keyword }}</li>
+        {% endfor %}
+    </ul>
+    <h1>Summary:</h1>
+    <p>{{ summary }}</p>
+</body>
+</html>
